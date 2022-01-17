@@ -1,0 +1,87 @@
+Entry 1
+Tue Nov 30th:
+Overview: Completed first draft of UML Diagram and laid out initial plan of the evite program 
+
+Included most classes,Enums and interfaces.
+Brainstormed for actual content of the program including guest types, their respective access to different functionalities, and party types
+Reached out to classmates for peer review
+
+(about 1.5 hour of designing and initial works)
+Added 
+
+To-Do:
+Receive feedback from peers and give feedback on peers’ work
+Make adjustments based on feedback
+Start coding from enums
+
+
+
+Entry 2
+Dec 04th:
+Overview: Changes to UML & started a structure for program
+
+(2 hours on modifying UML & coding inheritances)
+Added Interface ‘PartyAction’
+Added Enum ‘Cuisine Type’
+Coded ‘User’ & ‘Party’ classes
+Coded Guest, Staff, Host classes that extend ‘User’
+Coded Wedding, Birthday, Potluck classes that extend ‘Party’
+Added attributes for all classes; might add more later
+Set up getters & setters for attributes for each class
+
+To-Do next time:
+Add BFF
+Consider Encapsulation for all attributes
+Think about how to use interface
+Think about what functions this program will achieve
+Add party
+Cancel party
+Add guest
+Print information
+Think about more attributes/functions to add to each class to make program more usable
+Dietary restriction
+parking 
+room
+
+Entry 3 Dec 8th:
+Overview: Added guest maps, read and write functions to guest list. 
+
+(4 hours on the account registration system)
+Added logging in function
+Added registering function (collecting email, password, name)
+Added FileReader function
+Added AccountMenu Enum that will display to the users a list of options as they enter upfront
+Pretty much finished the guest registration function
+Added BFF
+
+To-Do:
+(Maybe) add password requirements 
+Add party registration details 
+Add different functions for each type of user, Staff, Host and regular User
+
+Entry 4 Dec 11th:
+Overview: finished up adding methods to classes and finished program
+
+(5.5 hours coding session)
+Added instance variables to subclasses BirthdayParty, Potluck, Wedding, Host, Staff
+Completed Menu options
+Completed functionality of those subclasses (Models): added interactions with user for input based on user's selection
+Added menu option to view selected party information
+Added menu option to view invite list to selected party
+Added interface of QuitParty
+Removed Account class and moved functionality to MainProgram
+Changed back to PrintWriter
+Wrote Reflection
+Added comments
+Updated UML
+
+
+
+Reference for UUID Class: https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html
+https://www.baeldung.com/java-uuid
+I was looking for a way to store the data put in and make sure it is unique. When information about the party is changed, other information including all the users attending wouldn't be affected. I learned SQL in other classes (where each data entry would have a unique primary key, usually an ID) and saw UUID online, so I used the UUID class as a unique key for each party.
+
+
+
+
+

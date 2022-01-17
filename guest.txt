@@ -1,0 +1,4 @@
+HOST/ 1/ 1/  / 1/ 6d39c483-e78f-42bb-99b8-c7d32669844e
+USER/ q/ q/ 6d39c483-e78f-42bb-99b8-c7d32669844e/ q
+USER/ abc/ abc/ 6d39c483-e78f-42bb-99b8-c7d32669844e/ 123
+GUEST/ w/ w/ 6d39c483-e78f-42bb-99b8-c7d32669844e
